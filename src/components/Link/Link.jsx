@@ -1,4 +1,4 @@
-
+import PropTypes from 'prop-types'; 
 
 const Link = ({route}) => {
     return (
@@ -8,6 +8,8 @@ const Link = ({route}) => {
     );
 };
 
-// Link.proptypes = 
+Link.propTypes = {
+    route: PropTypes.object
+}
 
 export default Link;
